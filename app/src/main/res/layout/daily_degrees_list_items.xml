@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Mathemetics Test"
+        android:id="@+id/tv_daily_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/dark_text_color"
+        android:gravity="left" />
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Exam msg_time: 00-00-2016"
+        android:id="@+id/tv_daily_examdate"
+        android:textColor="@color/dark_text_color"
+        android:layout_above="@+id/textView25"
+        android:layout_alignRight="@+id/tv_daily_resultdate"
+        android:layout_alignEnd="@+id/tv_daily_resultdate"
+        android:gravity="left"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/degrees_score"
+        android:id="@+id/textView25"
+        android:layout_below="@+id/tv_daily_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/dark_text_color"
+        android:gravity="left"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="90"
+        android:id="@+id/tv_daily_score"
+        android:textColor="@color/colorPrimary"
+        android:gravity="left"
+        android:layout_alignBaseline="@+id/textView25"
+        android:layout_alignBottom="@+id/textView25"
+        android:layout_toRightOf="@+id/textView25"
+        android:layout_toEndOf="@+id/textView25" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" / 100"
+        android:id="@+id/tv_daily_totalscore"
+        android:layout_alignBottom="@+id/tv_daily_score"
+        android:textColor="@color/dark_text_color"
+        android:layout_toLeftOf="@+id/tv_daily_resultdate"
+        android:layout_toStartOf="@+id/tv_daily_resultdate"
+        tools:textSize="18sp"
+        android:layout_toRightOf="@+id/tv_daily_score"
+        android:layout_toEndOf="@+id/tv_daily_score" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Result date: 00-00-2016"
+        android:id="@+id/tv_daily_resultdate"
+        android:layout_alignBottom="@+id/textView25"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/dark_text_color"
+        android:gravity="left"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/lang_en"
+        android:icon="@drawable/ic_flag_english"
+        android:title="@string/lang_english"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/lang_ar"
+        android:icon="@drawable/ic_flag_iraq"
+        android:title="@string/lang_arabic"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/lang_ku"
+        android:icon="@drawable/ic_flag_kurdish"
+        android:title="@string/lang_Kurdish"
+        app:showAsAction="always|withText"/>
+
+</menu>

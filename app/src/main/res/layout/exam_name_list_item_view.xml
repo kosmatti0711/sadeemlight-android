@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/parentView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/iconBook"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/library_book"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtExamName"
+        android:layout_toEndOf="@+id/iconBook"
+        android:layout_toRightOf="@+id/iconBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp" />
+
+</RelativeLayout>

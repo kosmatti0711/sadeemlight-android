@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="About Sadeemlight"
+        android:gravity="center_vertical|left"
+        android:id="@+id/textView3"
+        android:background="@color/light_text_color"
+        android:padding="10dp"/>-->
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/webView"
+        android:layout_gravity="center_horizontal" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="20dp">
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo2"/>
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo1"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+</LinearLayout>

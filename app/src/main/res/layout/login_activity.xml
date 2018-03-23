@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical"
+    android:id="@+id/login_acticity"
+    android:padding="10dp">
+
+    <!--<ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">-->
+
+            <LinearLayout
+                android:id="@+id/ll_choose_lang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:text="@string/login_chooselanguage"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/back_gradient_start" />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_login_05"
+                    android:tint="#381152"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/app_logo"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/et_login_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_login_09"
+                android:drawableTint="#381152"
+                android:hint="@string/login_et_user"
+                android:ems="10"
+                android:padding="10dp"
+                android:background="@drawable/shape_edittext_white_border"
+                android:inputType="textPersonName"
+                android:textColor="@color/back_gradient_start"
+                android:textCursorDrawable="@drawable/edittext_cursor1"/>
+
+            <EditText
+                android:id="@+id/et_login_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_login_15"
+                android:drawableTint="#381152"
+                android:ems="10"
+                android:padding="10dp"
+                android:hint="@string/login_et_pass"
+                android:background="@drawable/shape_edittext_white_border"
+                android:inputType="textPassword"
+                android:textColor="@color/back_gradient_start"
+                android:textCursorDrawable="@drawable/edittext_cursor1"/>
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_button_bg"
+                android:text="@string/login_btn_login"
+                android:textAllCaps="false"
+                android:textColor="@color/bg_color"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/login_tv_privacy"
+                android:id="@+id/tv_login_privacy"
+                android:textColor="@color/back_gradient_start"
+                android:layout_marginTop="20dp"
+                android:visibility="invisible"/>
+
+        <!--</LinearLayout>
+
+    </ScrollView>-->
+</LinearLayout>
+

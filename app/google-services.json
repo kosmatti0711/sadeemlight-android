@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "220163543113",
+    "firebase_url": "https://sadeem-light.firebaseio.com",
+    "project_id": "sadeem-light",
+    "storage_bucket": "sadeem-light.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220163543113:android:1338afee7ff508f2",
+        "android_client_info": {
+          "package_name": "com.sadeemlight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220163543113-vtqv8ru43tidmkgdso19n05uu9p0hqss.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFptWjqSO5YzPaT7nPE0d_K1mBsvQu-Eo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

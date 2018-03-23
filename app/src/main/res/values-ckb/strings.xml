@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">SadeemLight</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_profile">" بروفايله كت"</string>
+
+    <string name="action_main">صفحه ره ئيسى</string>
+    <string name="action_exam">تاقى كردنوه</string>
+    <string name="action_suggest">"پيشنياره كان  "</string>
+    <string name="action_setting">ئاماده‌ كردنه‌كان</string>
+    <string name="action_search">گران</string>
+    <string name="action_logout">ده رچوون</string>
+
+    <!--<string name="lang_english">English</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_Kurdish">كردي</string>-->
+
+    <string name="tab_news">هه‌واله‌ كان</string>
+    <string name="tab_friend">الأصدقاء</string>
+    <string name="tab_teaching">فيركردن</string>
+
+    <string name="side_menu_news">هه‌واله‌ كان</string>
+    <string name="side_menu_homework">ئه‌ركي ماله‌وه</string>
+    <string name="side_menu_voice">وانه‌ده‌نگيه كان</string>
+    <string name="side_menu_notification">ئاگدار كردنه‌وه كان</string>
+    <string name="side_menu_attend">ئاماده بوون</string>
+    <string name="side_menu_score">نمره كانم</string>
+    <string name="side_menu_message">نامه‌ كان</string>
+    <string name="side_menu_timetable">خشته‌مي حه‌فتانه‌</string>
+    <string name="side_menu_library">كتيبخانه‌</string>
+    <string name="side_menu_addacount">زياد كردني حساب</string>
+    <string name="side_menu_about">" ده وروبه رمان "</string>
+
+    <!-- login_activity -->
+    <string name="login_et_user">ناوی به‌كار هينه‌ر</string>
+    <string name="login_et_pass">وشه‌ي نهيَنی</string>
+    <string name="login_btn_login">ئيستا بچو ژووره وه</string>
+
+    <!-- Attendance_activity -->
+    <string name="attend_title">ئاماده بوون</string>
+    <string name="attend_class">پول</string>
+    <string name="attend_div">هۆبة</string>
+    <string name="attend_viewarchive">ده‌رخستني  ئه‌رشيف</string>
+    <string name="attend_statustoday">بارودوخی ئه‌مرو:</string>
+    <string name="attend_absent">غائب</string>
+    <string name="attend_attend">حاضر</string>
+    <string name="attend_off">مجاز</string>
+
+    <!-- add_news_comment -->
+    <string name="comment_addcoment">كومينتى دانه</string>
+
+    <!-- degrees_activity -->
+    <string name="degrees_daily">نمره‌ كاني روژانه</string>
+    <string name="degrees_monthly">نمركانی مانگانة</string>
+    <string name="degrees_score">أحرز هدفاً: </string>
+    <string name="degrees_result">تاريخ النتيجة: </string>
+
+    <!-- home_work_activity -->
+    <string name="homework_archive">ئه‌ر شيفي ئه‌ركي ماله‌وه</string>
+    <string name="homework_today">ئه‌ركي ماله‌وه‌ي روژانه</string>
+
+    <!-- setting_activity -->
+    <string name="setting_profile">وينه‌كي كه‌سي</string>
+    <string name="setting_lang">زمانكان</string>
+
+    <!-- weekly_schedule_activity -->
+    <string name="weekly_mon">الأثنين</string>
+    <string name="weekly_tue">الثلاثاء</string>
+    <string name="weekly_wed">الأربعاء</string>
+    <string name="weekly_thu">الخميس</string>
+    <string name="weekly_fri">الجمعة</string>
+    <string name="weekly_sat">السبت</string>
+    <string name="weekly_sun">الأحد</string>
+
+    <!-- chat_activity -->
+    <string name="chat_et_hint">نامه اليريه</string>
+
+    <!-- addaccount_activity -->
+    <string name="addaccount_btn_add">زياكردني حساب</string>
+
+    <!-- exam_activity -->
+    <string name="exam_tv_choose">بابه‌تي تاقيكردنه‌وة هةلبژيرة</string>
+    <string name="exam_tv_option">هةلبژاردنةكان:</string>
+    <string name="exam_btn_ans">وه لام</string>
+
+    <!-- friend_activity -->
+    <string name="friend_point">\"نكتكان : \"</string>
+
+    <!-- teaching_activity -->
+    <string name="teach_choosesubject">بابه ته‌كة هه‌لبژيرة</string>
+
+    <!-- suggestion_activity -->
+    <string name="suggest_title">تكاية پييناره‌كه‌ت بنيره‌ بو كۆميانياني سه‌ديم</string>
+    <string name="suggest_et_hint">رابورتكت بنسه</string>
+    <string name="suggest_btn_send">ناردن</string>
+    <string name="exam_dialog_name">ناوي تاقيكردنه وه:</string>
+    <string name="exam_dialog_que">هه‌موو پرسياره كان:</string>
+    <string name="exam_dialog_result">ئه‌نجامي تاقيكردنةوة</string>
+    <string name="exam_dialog_emtpyresult">No test or exam found</string>
+
+    <string name="comment_btn_comment">ليدوانه‌كان</string>
+    <string name="exam_dialog_c_ans">"راستكردنةوةي گشتي: "</string>
+    <string name="exam_dialog_ic_ans">"هه‌ل گشتيه‌كان: "</string>
+    <string name="exam_dialog_subject">"ناوي بابه‌ت: "</string>
+    <string name="login_tv_privacy"><u>سياسه تي تايبه ت</u></string>
+    <string name="setting_dialog_camera">كاميرا</string>
+    <string name="setting_dialog_gallary">ستوديو</string>
+    <string name="side_menu_share">شار برنامه</string>
+    <string name="attend_total_absent">گم</string>
+    <string name="attend_total_attend">ليريه</string>
+    <string name="attend_total_off">اجازه</string>
+    <string name="comment_et_hint">كومينت اليريه</string>
+    <string name="degrees_fail">كوتن</string>
+    <string name="degrees_success">سركوتن</string>
+    <string name="code_title">رقم باسوردكه بنسه</string>
+    <string name="code_et_hint">باسوردكه بنسه سجل</string>
+    <string name="code_btn_reg">سجّل</string>
+    <string name="code_tv_link"><u>جون اتوانى باسوردكه بدوزى</u></string>
+    <string name="activity_visit">سه ردانمان بكه ن</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/iv_drawer_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:backgroundTint="@color/icon_color"/>
+
+    <TextView
+        android:id="@+id/tv_drawer_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:text="Homework"
+        android:textSize="14dp"
+        android:textColor="@color/dark_text_color"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignBottom="@+id/iv_drawer_icon"
+        android:layout_toRightOf="@+id/iv_drawer_icon"
+        android:layout_toEndOf="@+id/iv_drawer_icon"/>
+
+    <TextView
+        android:id="@+id/tv_drawer_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:gravity="center"
+        android:textColor="@color/bg_color"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:padding="1dp"
+        android:textSize="11dp"
+        android:background="@drawable/shape_circle_textview"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignBottom="@+id/tv_drawer_txt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

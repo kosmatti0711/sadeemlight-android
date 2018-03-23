@@ -1,0 +1,196 @@
+<resources>
+    <string name="crash_toast_text">crash</string>
+    <string name="app_name">SadeemLight</string>
+    <!--<string name="google_api_key">AIzaSyA12aB4kWxPm1pwiq4w9Ok5nFCXFDlc91w</string>-->
+    <!--AIzaSyDeX8D0Ys-XwKrryixp3tGDsUV2H8Dp8Lw-->
+
+    <string name="xlistview_header_hint_normal">Pull down to refresh</string>
+    <string name="xlistview_header_hint_ready">Release the refresh data</string>
+    <string name="xlistview_header_hint_loading">Loading...</string>
+    <string name="xlistview_header_last_time"></string>
+    <string name="xlistview_footer_hint_normal">...</string>
+    <string name="xlistview_footer_hint_ready">Release the load more</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_profile">Profile</string>
+
+    <string name="action_main">Main Page</string>
+    <string name="action_exam">Examinations</string>
+    <string name="action_suggest">Suggestions</string>
+    <string name="action_setting">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_elearning">E-Learning</string>
+    <string name="action_etest">E-Exams</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+
+    <!-- popup menu -->
+    <!--<string name="lang_english">English</string>
+    <string name="lang_arabic">Arabic</string>
+    <string name="lang_Kurdish">Kurdish</string>-->
+    <string name="lang_english">English</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_Kurdish">كردي</string>
+
+    <!-- tab menu -->
+    <string name="tab_news">News</string>
+    <string name="tab_friend">Colleagues</string>
+    <string name="tab_teaching">Teaching</string>
+
+    <!-- Navigation drawer menu -->
+    <string name="side_menu_news">News</string>
+    <string name="side_menu_homework">Homework</string>
+    <string name="side_menu_voice">Audio Library</string>
+    <string name="side_menu_notification">Notifications</string>
+    <string name="side_menu_attend">Attendance</string>
+    <string name="side_menu_score">Scores</string>
+    <string name="side_menu_message">Messages</string>
+    <string name="side_menu_timetable">Timetable</string>
+    <string name="side_menu_library">Library</string>
+    <string name="side_menu_addacount">Add Account</string>
+    <string name="side_menu_about">About</string>
+    <string name="side_menu_share">Share App</string>
+    <string name="side_menu_elearning">E-Learning</string>
+    <string name="side_menu_etest">E-Exams</string>
+
+    <!-- login_activity -->
+    <string name="login">Login</string>
+    <string name="login_chooselanguage">Choose Language</string>
+    <string name="login_welcome">Welcome to Sadeem Light</string>
+    <string name="login_et_user">Username</string>
+    <string name="login_et_pass">Password</string>
+    <string name="login_btn_login">Login Now</string>
+    <string name="login_tv_privacy"><u>Privacy Policy</u></string>
+
+    <!-- Attendance_activity -->
+    <string name="attend_title">Attendance</string>
+    <string name="attend_class">Class</string>
+    <string name="attend_div">Division</string>
+    <string name="attend_viewarchive">View Archive</string>
+    <string name="attend_statustoday">"Today's Status:"</string>
+    <string name="attend_absent">Absent</string>
+    <string name="attend_attend">Attend</string>
+    <string name="attend_off">Legally off</string>
+
+
+    <string name="attend_total_attend">Attend</string>
+    <string name="attend_total_absent">Absent</string>
+    <string name="attend_total_off">Legally off</string>
+
+    <!-- add_news_comment -->
+    <string name="comment_addcoment">Add Comment</string>
+    <string name="comment_et_hint">Comment Here..</string>
+    <string name="comment_btn_comment">Comment</string>
+
+    <!-- degrees_activity -->
+    <string name="degrees_daily">Daily Degrees</string>
+    <string name="degrees_monthly">Monthly Degrees</string>
+    <string name="degrees_score">Score: </string>
+    <string name="degrees_result">Result date: </string>
+
+    <string name="degrees_fail">Failed</string>
+    <string name="degrees_success">Success</string>
+
+    <!-- home_work_activity -->
+    <string name="homework_archive">Homework Archive</string>
+    <string name="homework_today">Homework of day</string>
+
+    <!-- setting_activity -->
+    <string name="setting_profile">Profile Picture</string>
+    <string name="setting_lang">Language</string>
+
+    <string name="setting_dialog_camera">Camera</string>
+    <string name="setting_dialog_gallary">Gallery</string>
+
+    <!-- weekly_schedule_activity -->
+    <string name="weekly_mon">Mon</string>
+    <string name="weekly_tue">Tue</string>
+    <string name="weekly_wed">Wed</string>
+    <string name="weekly_thu">Thu</string>
+    <string name="weekly_fri">Fri</string>
+    <string name="weekly_sat">Sat</string>
+    <string name="weekly_sun">Sun</string>
+
+    <!-- chat_activity -->
+    <string name="chat_et_hint">Message Here..</string>
+
+    <!-- addaccount_activity -->
+    <string name="addaccount_btn_add">Add account</string>
+
+    <!-- exam_activity -->
+    <string name="exam_tv_choose">Choose exam subject</string>
+    <string name="exam_tv_option">Options:</string>
+    <string name="exam_btn_ans">Answer</string>
+
+    <string name="exam_dialog_name">Exam name: </string>
+    <string name="exam_dialog_subject">Subject name: </string>
+    <string name="exam_dialog_que">Total questions: </string>
+    <string name="exam_dialog_c_ans">Total correct answer: </string>
+    <string name="exam_dialog_ic_ans">Total incorrect answer: </string>
+    <string name="exam_dialog_result">Exam Result</string>
+    <string name="exam_dialog_emtpyresult">No test or exam found</string>
+
+    <!-- friend_activity -->
+    <string name="friend_point">Points: </string>
+
+    <!-- teaching_activity -->
+    <string name="teach_choosesubject">Choose your subject</string>
+    <string name="teach_chooseexam">Choose your exam</string>
+
+
+    <!-- suggestion_activity -->
+    <string name="suggest_title">please ,send your suggestions to Alsadeem company.</string>
+    <string name="suggest_et_hint">Enter your suggestions</string>
+    <string name="suggest_btn_send">SEND</string>
+    
+    <!-- activity_main -->
+    <string name="activity_visit">Visit us</string>
+
+    <!-- register_code_activity -->
+    <string name="code_title">Insert code number</string>
+    <string name="code_et_hint">Enter Code</string>
+    <string name="code_btn_reg">Register</string>
+    <string name="code_tv_link"><u>How to get code</u></string>
+
+    <string name="attach_picture">Picture</string>
+    <string name="attach_video">Video</string>
+    <string name="attach_music">Music</string>
+
+    <string name="picker_camera">Camera</string>
+    <string name="picker_gallery">Gallery</string>
+    <string name="picker_cancel">Cancel</string>
+    <string name="picker_imagetitle">Pick Image</string>
+    <string name="picker_videotitle">Pick Video</string>
+    <string name="picker_musictitle">Pick Music</string>
+
+    <string name="library_book">Book</string>
+    <string name="library_public">Public\nLibrary</string>
+
+    <string name="timetable_lesson">Lesson</string>
+    <string name="timetable_teachername">Teacher name</string>
+    <string name="timetable_subject">Subject</string>
+
+    <string name="record_slidecancel">&lt; SLIDE TO CANCEL</string>
+
+    <string name="news_commenthere">Comment Here..</string>
+    <string name="news_comment">Comment</string>
+
+    <string name="attendance_nofoundrecord">No Record Found.</string>
+
+    <string name="suggestion_sent">Suggestion Sent</string>
+    <string name="suggestion_thanks">Thank you for your suggestion on how to make our app more efficient. The ideas and suggestions of innovative, thinking people are always welcome.</string>
+    <string name="Close">Close</string>
+    <string name="Save">Save</string>
+    <string name="Share">Share</string>
+    <string name="Cancel">Cancel</string>
+    <string name="ShareImage">Share Image</string>
+    
+    <string name="notice">Notice</string>
+    <string name="expire_msg">Your subscription will be expired on</string>
+    <string name="call_school">Call School</string>
+    <string name="close">Close</string>
+</resources>
+

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shap_list_corner"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Loripsome news field"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/dark_text_color"
+            android:layout_toLeftOf="@+id/iv_profile"
+            android:layout_toStartOf="@+id/iv_profile" />
+
+        <TextView
+            android:id="@+id/tv_datetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginTop="3dp"
+            android:text="06-08-16 6:16 PM"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/colorPrimary" />
+
+        <RelativeLayout
+            android:id="@+id/rl_news_img_video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tv_datetime"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/iv_message_img"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:scaleType="centerCrop"/>
+
+            <!--<com.google.android.youtube.player.YouTubeThumbnailView
+                android:id="@+id/youtube_thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:scaleType="centerCrop"
+                android:visibility="visible" />-->
+
+            <!--<VideoView
+                android:id="@+id/videoView2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone"/>-->
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+
+                <com.github.rtoshiro.view.video.FullscreenVideoLayout
+                    android:id="@+id/videoView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"/>
+            </FrameLayout>
+
+            <!--<com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youtube_view"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone"/>-->
+
+            <!--<fragment
+                android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"
+                android:id="@+id/youtube_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>-->
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/iv_news_play"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/ic_play" />
+
+        </RelativeLayout>
+
+        <com.sadeemlight.util.RoundedImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/rl_news_img_video"
+            android:layout_marginTop="10dp"
+            android:text="This is load for news was have ever this is dumy text for news. we would like to introduce sadeemlight project has is a project for student schools and parent management."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/dark_text_color"
+            android:textSize="17sp"
+            android:textIsSelectable="true"
+            android:theme="@style/edittextstyle"/>
+
+        <!--android:autoLink="web"
+            android:theme="@style/edittextstyle"-->
+
+        <RelativeLayout
+            android:id="@+id/newsTools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_message">
+            <RelativeLayout
+                android:id="@+id/rl_news_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                >
+
+                <ImageView
+                    android:id="@+id/iv_news_list_likes"
+                    android:layout_width="22dp"
+                    android:layout_height="19dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ic_news_13"/>
+
+                <TextView
+                    android:id="@+id/tv_likes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_alignBottom="@+id/iv_news_list_likes"
+                    android:layout_toEndOf="@+id/iv_news_list_likes"
+                    android:layout_toRightOf="@+id/iv_news_list_likes"
+                    android:gravity="center_vertical"
+                    android:text="00"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/dark_text_color" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/rl_news_like"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_toEndOf="@+id/rl_news_like"
+                android:layout_toRightOf="@+id/rl_news_like"
+                android:background="@color/icon_color" />
+
+            <RelativeLayout
+                android:id="@+id/rl_news_views"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/rl_news_like"
+                android:layout_toEndOf="@+id/imageView4"
+                android:layout_toRightOf="@+id/imageView4">
+
+                <ImageView
+                    android:id="@+id/iv_news_list_views"
+                    android:layout_width="22dp"
+                    android:layout_height="20dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/ic_news_15"/>
+
+                <TextView
+                    android:id="@+id/tv_views"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_alignBottom="@+id/iv_news_list_views"
+                    android:layout_toEndOf="@+id/iv_news_list_views"
+                    android:layout_toRightOf="@+id/iv_news_list_views"
+                    android:gravity="center_vertical"
+                    android:text="00"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/dark_text_color" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_alignTop="@+id/imageView4"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_toEndOf="@+id/rl_news_views"
+                android:layout_toRightOf="@+id/rl_news_views"
+                android:background="@color/icon_color" />
+
+            <RelativeLayout
+                android:id="@+id/rl_news_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView6"
+                android:layout_toEndOf="@+id/imageView6"
+                android:layout_toRightOf="@+id/imageView6">
+
+                <ImageView
+                    android:id="@+id/iv_news_list_comment"
+                    android:layout_width="22dp"
+                    android:layout_height="19dp"
+                    android:background="@drawable/ic_news_17" />
+
+                <TextView
+                    android:id="@+id/tv_comments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_alignBottom="@+id/iv_news_list_comment"
+                    android:layout_toEndOf="@+id/iv_news_list_comment"
+                    android:layout_toRightOf="@+id/iv_news_list_comment"
+                    android:gravity="center_vertical"
+                    android:text="00"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/dark_text_color" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/iv_news_divider"
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                android:layout_alignTop="@+id/imageView4"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_toEndOf="@+id/rl_news_comment"
+                android:layout_toRightOf="@+id/rl_news_comment"
+                android:background="@color/icon_color" />
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="19dp"
+                android:id="@+id/iv_news_share"
+                android:background="@drawable/ic_news_share"
+                android:layout_alignBottom="@+id/iv_news_divider"
+                android:layout_toRightOf="@+id/iv_news_divider"
+                android:layout_toEndOf="@+id/iv_news_divider" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

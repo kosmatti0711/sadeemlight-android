@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flycotabLayout/flycotabLayout.iml" filepath="$PROJECT_DIR$/flycotabLayout/flycotabLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/musicwave/musicwave.iml" filepath="$PROJECT_DIR$/musicwave/musicwave.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sadeemlight-android.iml" filepath="$PROJECT_DIR$/sadeemlight-android.iml" />
+    </modules>
+  </component>
+</project>

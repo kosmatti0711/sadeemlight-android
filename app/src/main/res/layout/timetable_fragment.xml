@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_color"
+        app:tabBackground="@drawable/shape_tab_back_color"
+        app:tabGravity="center"
+        app:tabIndicatorColor="@color/colorPrimary"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/bg_color"
+        app:tabTextAppearance="@style/MyCustomTextAppearance"
+        app:tabTextColor="@color/dark_text_color"
+        app:tabPadding="0dp"
+        app:tabPaddingStart="8dp"
+        app:tabPaddingEnd="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/timetable_lesson"
+            android:id="@+id/text_lessonno"
+            android:gravity="center_vertical|center"
+            android:textColor="@color/color_white"
+            android:background="@drawable/shape_round_textview_grid4"
+            android:padding="5dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/timetable_teachername"
+            android:id="@+id/text_teacher"
+            android:gravity="center_vertical|center"
+            android:textColor="@color/color_white"
+            android:background="@drawable/shape_round_textview_grid4"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/timetable_subject"
+            android:id="@+id/text_subjectname"
+            android:gravity="center_vertical|center"
+            android:textColor="@color/color_white"
+            android:background="@drawable/shape_round_textview_grid4"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"/>
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <ListView
+            android:id="@+id/lv_weekly"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:divider="@null"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <com.sadeemlight.util.RoundedImageViewWithBorder
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/iv_friend_icon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/ic_login_icon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Manish Joshi"
+        android:id="@+id/tv_friend_name"
+        android:layout_alignTop="@+id/iv_friend_icon"
+        android:layout_toRightOf="@+id/iv_friend_icon"
+        android:layout_toEndOf="@+id/iv_friend_icon"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:textColor="@color/dark_text_color"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView15"
+        android:background="@drawable/ic_friends_03"
+        android:layout_below="@+id/tv_friend_name"
+        android:layout_alignLeft="@+id/tv_friend_name"
+        android:layout_alignStart="@+id/tv_friend_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Points: 10"
+        android:id="@+id/tv_friend_point"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignBottom="@+id/imageView15"
+        android:layout_toRightOf="@+id/imageView15"
+        android:layout_toEndOf="@+id/imageView15"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"/>
+
+
+</RelativeLayout>

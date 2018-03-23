@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="School name"
+                android:id="@+id/text_schoolname"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/color_black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Class name"
+                android:id="@+id/text_classname"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/color_black"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <GridView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gv_subjectlist"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:numColumns="3"
+                android:stretchMode="spacingWidthUniform"
+                android:columnWidth="100dp"
+                android:layout_marginTop="10dp"/>
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/root_lesson"
+        android:background="#2d2c2c"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/list_audio_lesson"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/color_white"
+            android:gravity="center_vertical"
+            android:padding="5dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/button_play"
+                android:src="@drawable/ic_audio_play"
+                android:layout_marginLeft="10dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:id="@+id/text_lessonname"
+                    android:lines="1"/>
+                <SeekBar
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:id="@+id/seek_audiolesson"
+                    android:max="100"
+                    android:padding="10dp"
+                    android:progressDrawable="@drawable/apptheme_scrubber_progress_horizontal_holo_light"
+                    android:thumbTint="@color/color_blue"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_audio_volume"
+                android:id="@+id/button_volume"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

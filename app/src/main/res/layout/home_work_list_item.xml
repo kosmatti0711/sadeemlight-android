@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_homework_list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Mathematics"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tv_homework_list_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18-8-16 "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_alignBottom="@+id/tv_homework_list_title"
+            android:layout_toLeftOf="@+id/imageView"
+            android:layout_toStartOf="@+id/imageView" />
+
+        <!--<TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tv_homework_list_title"
+            android:layout_marginRight="30dp"
+            android:background="@color/light_text_color" />-->
+
+        <TextView
+            android:id="@+id/tv_homework_item_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tv_homework_list_date"
+            android:text="Class A"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tv_homework_list_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tv_homework_item_class"
+            android:text="Create complite note on subhash chandra boze "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/dark_text_color" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tv_homework_list_date"
+            android:background="@drawable/ic_attendance_23" />
+
+</RelativeLayout>

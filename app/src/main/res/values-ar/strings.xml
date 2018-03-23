@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">SadeemLight</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_profile"> الملف الشخصي</string>
+
+    <string name="action_main">الصفحة الرئيسية</string>
+    <string name="action_exam">الأختبارات</string>
+    <string name="action_suggest">الإقتراحات</string>
+    <string name="action_setting">الإعدادات</string>
+    <string name="action_search">البحث</string>
+    <string name="action_logout">خروج</string>
+    <string name="action_elearning">التعليم الألكتروني</string>
+    <string name="action_etest">الإختبار الألكتروني</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+
+    <!--<string name="lang_english">English</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="lang_Kurdish">كردي</string>-->
+
+    <string name="tab_news">الأخبار</string>
+    <string name="tab_friend">الزملاء</string>
+    <string name="tab_teaching">التعليم</string>
+
+    <string name="side_menu_news">الأخبار</string>
+    <string name="side_menu_homework">الواجب البيتي</string>
+    <string name="side_menu_voice">الدروس الصوتية</string>
+    <string name="side_menu_notification">التبليغات</string>
+    <string name="side_menu_attend">الحضور</string>
+    <string name="side_menu_score">درجاتي</string>
+    <string name="side_menu_message">"الرسائل "</string>
+    <string name="side_menu_timetable">الجدول الأسبوعي</string>
+    <string name="side_menu_library">المكتبة</string>
+    <string name="side_menu_addacount">إضافة حساب</string>
+    <string name="side_menu_elearning">التعليم الألكتروني</string>
+    <string name="side_menu_etest">الإختبار الألكتروني</string>
+    <string name="side_menu_about">حول</string>
+
+    <!-- login_activity -->
+    <string name="login">تسجيل الدخول</string>
+    <string name="login_chooselanguage">اختيار اللغات</string>
+    <string name="login_welcome">اهلا بكم في سديم لايت</string>
+    <string name="login_et_user">إسم المستخدم</string>
+    <string name="login_et_pass">كلمة المرور</string>
+    <string name="login_btn_login">تسجيل الآن</string>
+
+    <!-- Attendance_activity -->
+    <string name="attend_title">الحضور</string>
+    <string name="attend_class">الصف</string>
+    <string name="attend_div">الشعبة</string>
+    <string name="attend_viewarchive">عرض الأرشيف</string>
+    <string name="attend_statustoday">حالة اليوم</string>
+    <string name="attend_absent">غائب</string>
+    <string name="attend_attend">حاضر</string>
+    <string name="attend_off">مجاز</string>
+
+    <!-- add_news_comment -->
+    <string name="comment_addcoment">إضافة تعليق</string>
+
+    <!-- degrees_activity -->
+    <string name="degrees_daily">الدرجات اليومية</string>
+    <string name="degrees_monthly">الدرجات الشهرية</string>
+    <string name="degrees_score">الدرجة : </string>
+    <string name="degrees_result">تاريخ النتيجة: </string>
+
+    <!-- home_work_activity -->
+    <string name="homework_archive">أرشيف الواجب البيتي</string>
+    <string name="homework_today">الواجب البيتي اليومي</string>
+
+    <!-- setting_activity -->
+    <string name="setting_profile">الصورة الشخصية</string>
+    <string name="setting_lang">اللغات</string>
+
+    <string name="setting_dialog_camera">الكاميرا</string>
+    <string name="setting_dialog_gallary">الأستوديو</string>
+
+    <!-- weekly_schedule_activity -->
+    <string name="weekly_mon">إثنين </string>
+    <string name="weekly_tue">ثلاثاء</string>
+    <string name="weekly_wed">أربعاء</string>
+    <string name="weekly_thu">خميس</string>
+    <string name="weekly_fri">جمعة</string>
+    <string name="weekly_sat">سبت</string>
+    <string name="weekly_sun">أحد</string>
+
+    <!-- chat_activity -->
+    <string name="chat_et_hint">رسالة هنا</string>
+
+    <!-- addaccount_activity -->
+    <string name="addaccount_btn_add">إضافة حساب</string>
+
+    <!-- exam_activity -->
+    <string name="exam_tv_choose">إختر مادة الأختبار</string>
+    <string name="exam_tv_option">أختيارات:</string>
+    <string name="exam_btn_ans">الجواب</string>
+
+    <string name="exam_dialog_name">إسم الأختبار: </string>
+    <string name="exam_dialog_subject">إسم المادة: </string>
+    <string name="exam_dialog_que">كافة الأسئلة: </string>
+    <string name="exam_dialog_c_ans">"الأجوبة الصحيحة الكلية: "</string>
+    <string name="exam_dialog_ic_ans">"الأجوبة الخاطئة الكلية: "</string>
+    <string name="exam_dialog_result">نتيجة الأختبار</string>
+    <string name="exam_dialog_emtpyresult">No test or exam found</string>
+
+    <!-- friend_activity -->
+    <string name="friend_point">\"نقاط  : \"</string>
+
+    <!-- teaching_activity -->
+    <string name="teach_choosesubject">إختر المادة</string>
+    <string name="teach_chooseexam">إختر مادة الإختبار</string>
+
+    <!-- suggestion_activity -->
+    <string name="suggest_title">من فضلك ، إرسل أقتراحاتك إلى شركة السديم</string>
+    <string name="suggest_et_hint">"إكتب مقترحك "</string>
+    <string name="suggest_btn_send">إرسال</string>
+    <string name="comment_btn_comment">التعليقات</string>
+    <string name="login_tv_privacy"><u>تراخيص الخصوصية</u></string>
+    <string name="side_menu_share">مشاركة التطبيق</string>
+    <string name="attend_total_absent">غائب</string>
+    <string name="attend_total_attend">حاضر</string>
+    <string name="attend_total_off">مجاز</string>
+    <string name="comment_et_hint">عَلِقْ هنا</string>
+    <string name="degrees_fail">رسوب</string>
+    <string name="degrees_success">نجاح</string>
+    <string name="code_title">إدخل رقم الشفرة</string>
+    <string name="code_et_hint">إدخل الشفرة</string>
+    <string name="code_btn_reg">"سجل "</string>
+    <string name="code_tv_link"><u>كيفية الحصول على الشفرة</u></string>
+    <string name="activity_visit">"زورونا "</string>
+
+    <string name="attach_picture">ملف صوتي</string>
+    <string name="attach_video"> فيديو</string>
+    <string name="attach_music">صورة</string>
+
+    <string name="library_book">كتاب</string>
+    <string name="library_public">المكتبة العامة</string>
+
+    <string name="timetable_lesson">المادة</string>
+    <string name="timetable_teachername"> الاستاذ </string>
+    <string name="timetable_subject">الدرس</string>
+
+    <string name="record_slidecancel">&lt; إسحب للإلغاء</string>
+
+    <string name="news_commenthere">اكتب تعليق هنا</string>
+    <string name="news_comment">تعليق</string>
+
+    <string name="attendance_nofoundrecord">لا توجد معلومات</string>
+
+    <string name="suggestion_sent">تم ارسال الاقتراح</string>
+    <string name="suggestion_thanks">شكرا لكم على اقتراحكم حول كيفية جعل التطبيق أكثر كفاءة. أفكاركم واقتراحاتكم المبتكرة، هي دائما موضع ترحيب.</string>
+    <string name="Close">اغلاق</string>
+    <string name="Save">حفظ</string>
+    <string name="Share">مشاركة</string>
+    <string name="Cancel">الغاء</string>
+    <string name="ShareImage">مشاركة الصورة</string>
+</resources>

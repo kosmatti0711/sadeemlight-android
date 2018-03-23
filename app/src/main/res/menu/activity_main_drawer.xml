@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="News" />
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Attendance" />
+        <item
+            android:id="@+id/nav_homework"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Homework" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/nav_scores"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Scores" />
+        <item
+            android:id="@+id/nav_library"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Library" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Messages" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Weekly Schedule" />
+    </group>
+
+    <!--<item android:id="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:id="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:id="Send" />
+        </menu>
+    </item>-->
+
+</menu>

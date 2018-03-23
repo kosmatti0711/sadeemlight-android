@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="English"
+        android:id="@+id/tv_teaching_grid_subject"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="@drawable/shape_round_textview_gird_1"
+        android:textColor="@color/bg_color"
+        android:padding="10dp"/>
+</LinearLayout>

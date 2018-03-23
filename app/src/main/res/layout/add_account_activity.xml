@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:hint="@string/login_et_user"
+            android:id="@+id/et_addaccount_username"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shape_edittext_border"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:theme="@style/edittextstyle"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:hint="@string/login_et_pass"
+            android:id="@+id/et_addaccount_password"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shape_edittext_border"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:theme="@style/edittextstyle"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addaccount_btn_add"
+            android:id="@+id/btn_add_account"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/shape_button_normal"
+            android:textColor="@color/bg_color"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"/>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_show_students"
+        android:layout_gravity="center_horizontal"
+        android:divider="@color/colorPrimary"
+        android:dividerHeight="0.5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>

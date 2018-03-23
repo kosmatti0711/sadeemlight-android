@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/bg_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="25dp">
+
+                <com.sadeemlight.util.RoundedImageView
+                    android:id="@+id/iv_degree_student_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/ic_login_icon" />
+
+                <TextView
+                    android:id="@+id/tv_degree_student_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginStart="19dp"
+                    android:layout_toEndOf="@+id/iv_degree_student_icon"
+                    android:layout_toRightOf="@+id/iv_degree_student_icon"
+                    android:text="Manish Joshi"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/dark_text_color" />
+
+                <TextView
+                    android:id="@+id/tv_degree_class"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Class A / B Division"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_below="@+id/tv_degree_student_name"
+                    android:layout_alignLeft="@+id/tv_degree_student_name"
+                    android:layout_alignStart="@+id/tv_degree_student_name" />
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView11"
+                    android:layout_below="@+id/tv_degree_fail"
+                    android:layout_alignLeft="@+id/tv_degree_class"
+                    android:layout_alignStart="@+id/tv_degree_class"
+                    android:background="@drawable/ic_score_07"
+                    />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="0"
+                    android:id="@+id/tv_degree_fail"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/dark_text_color"
+                    android:layout_below="@+id/tv_degree_class"
+                    android:layout_alignLeft="@+id/tv_degree_class"
+                    android:layout_alignStart="@+id/tv_degree_class"
+                    android:layout_marginTop="15dp"/>
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView12"
+                    android:background="@drawable/ic_score_09"
+                    android:layout_above="@+id/textView7"
+                    android:layout_toRightOf="@+id/imageView11"
+                    android:layout_toEndOf="@+id/imageView11"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="0"
+                    android:id="@+id/tv_degree_pass"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/dark_text_color"
+                    android:layout_above="@+id/imageView12"
+                    android:layout_alignRight="@+id/textView8"
+                    android:layout_alignEnd="@+id/textView8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/degrees_fail"
+                    android:id="@+id/textView7"
+                    android:layout_below="@+id/imageView11"
+                    android:layout_alignLeft="@+id/imageView11"
+                    android:layout_alignStart="@+id/imageView11" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/degrees_success"
+                    android:id="@+id/textView8"
+                    android:layout_alignTop="@+id/textView7"
+                    android:layout_alignLeft="@+id/imageView12"
+                    android:layout_alignStart="@+id/imageView12" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_degrees_daily"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/light_text_color"
+                android:drawableEnd="@drawable/ic_attendance_23"
+                android:drawableRight="@drawable/ic_attendance_23"
+                android:gravity="center_vertical|left"
+                android:padding="10dp"
+                android:text="@string/degrees_daily"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/dark_text_color" />
+
+            <TextView
+                android:id="@+id/tv_degrees_monthly"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/light_text_color"
+                android:drawableRight="@drawable/ic_attendance_23"
+                android:drawableEnd="@drawable/ic_attendance_23"
+                android:gravity="center_vertical|left"
+                android:padding="10dp"
+                android:text="@string/degrees_monthly"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/dark_text_color" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

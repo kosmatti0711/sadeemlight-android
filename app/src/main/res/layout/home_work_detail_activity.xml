@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_color"
+    android:padding="10dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Mathemace"
+        android:id="@+id/tv_homework_detail_title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="18-8-16 6:19PM"
+        android:id="@+id/tv_homework_detail_date"
+        android:layout_alignBottom="@+id/tv_homework_detail_title"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/tv_homework_detail_title"
+        android:layout_centerHorizontal="true"
+        android:background="@color/light_text_color"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Class A"
+        android:id="@+id/tv_homework_detail_class"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/dark_text_color"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Create complite note on subhash chandra boze.Create complite note on subhash chandra boze.Create complite note on subhash chandra boze.Create complite note on subhash chandra boze.Create complite note on subhash chandra boze.Create complite note on subhash chandra boze"
+        android:id="@+id/tv_homework_detail_detail"
+        android:layout_below="@+id/tv_homework_detail_class"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/dark_text_color"
+        android:layout_marginTop="10dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

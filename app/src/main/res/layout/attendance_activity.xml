@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl_attend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <com.sadeemlight.util.RoundedImageView
+                    android:id="@+id/iv_attend_student_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Manish Joshi"
+                    android:id="@+id/tv_attend_student_name"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginStart="21dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/iv_attend_student_icon"
+                    android:layout_toEndOf="@+id/iv_attend_student_icon"
+                    android:textColor="@color/dark_text_color"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Class B / A Division"
+                    android:id="@+id/tv_attend_class_div"
+                    android:layout_below="@+id/tv_attend_student_name"
+                    android:layout_alignLeft="@+id/tv_attend_student_name"
+                    android:layout_alignStart="@+id/tv_attend_student_name"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="left"
+                    android:textDirection="anyRtl"/>
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView8"
+                    android:background="@drawable/ic_attendance_09"
+                    android:layout_below="@+id/tv_attend_total_absent"
+                    android:layout_alignLeft="@+id/tv_attend_class_div"
+                    android:layout_alignStart="@+id/tv_attend_class_div" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="0"
+                    android:id="@+id/tv_attend_total_absent"
+                    android:textColor="@color/dark_text_color"
+                    android:gravity="center"
+                    android:layout_below="@+id/tv_attend_class_div"
+                    android:layout_alignRight="@+id/imageView8"
+                    android:layout_alignEnd="@+id/imageView8"
+                    android:layout_marginTop="10dp"/>
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView9"
+                    android:layout_toRightOf="@+id/tv_attend_total_absent"
+                    android:layout_toEndOf="@+id/tv_attend_total_absent"
+                    android:background="@drawable/ic_attendance_11"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignBottom="@+id/imageView8"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="0"
+                    android:gravity="center"
+                    android:id="@+id/tv_attend_total_attend"
+                    android:textColor="@color/dark_text_color"
+                    android:layout_alignTop="@+id/tv_attend_total_off"
+                    android:layout_alignLeft="@+id/imageView9"
+                    android:layout_alignStart="@+id/imageView9" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/attend_viewarchive"
+                    android:id="@+id/tv_attend_view_archive"
+                    android:layout_marginTop="55dp"
+                    android:layout_below="@+id/imageView8"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/colorPrimary"
+                    android:drawableRight="@drawable/ic_attendance_23"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/shape_transperant_border"
+                    android:padding="10dp"
+                    android:gravity="center_vertical|left"/>
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignBottom="@+id/imageView9"
+                    android:layout_toRightOf="@+id/tv_attend_total_attend"
+                    android:layout_toEndOf="@+id/tv_attend_total_attend"
+                    android:background="@drawable/ic_legally_off"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="0"
+                    android:gravity="center"
+                    android:id="@+id/tv_attend_total_off"
+                    android:textColor="@color/dark_text_color"
+                    android:layout_above="@+id/imageView3"
+                    android:layout_alignLeft="@+id/imageView3"
+                    android:layout_alignStart="@+id/imageView3" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/attend_total_absent"
+                    android:id="@+id/textView"
+                    android:layout_below="@+id/imageView8"
+                    android:layout_alignLeft="@+id/imageView8"
+                    android:layout_alignStart="@+id/imageView8"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/attend_total_attend"
+                    android:id="@+id/textView2"
+                    android:layout_below="@+id/imageView9"
+                    android:layout_alignLeft="@+id/imageView9"
+                    android:layout_alignStart="@+id/imageView9"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/attend_total_off"
+                    android:id="@+id/textView3"
+                    android:layout_below="@+id/imageView3"
+                    android:layout_alignLeft="@+id/imageView3"
+                    android:layout_alignStart="@+id/imageView3"
+                    android:gravity="center"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/light_text_color"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/attend_statustoday"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/dark_text_color" />
+
+                <TextView
+                    android:id="@+id/tv_attend_date_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textView11"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/tv_attend_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/iv_attend_status_icon"
+                    android:layout_toStartOf="@+id/iv_attend_status_icon"
+                    android:text="@string/attend_absent"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/dark_text_color" />
+
+                <ImageView
+                    android:id="@+id/iv_attend_status_icon"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,96 @@
+
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
+
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.sadeemlight"
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 16
+        versionName "2.6.1"
+        ndk{
+            moduleName "Lame"
+            ldLibs "log"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            // using false translation.
+            lintOptions {
+                disable 'MissingTranslation'
+            }
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+    compile 'com.android.support:design:26.1.0'
+
+    //it is imageloader library for load image
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+
+    // http for multipartentity
+    compile group: 'org.apache.httpcomponents' , name: 'httpclient-android' , version: '4.3.5.1'
+    compile('org.apache.httpcomponents:httpmime:4.3') {
+        exclude module: "httpclient"
+    }
+
+
+    compile "com.google.android.gms:play-services-gcm:11.6.0"
+
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
+    //compile project(':flycotabLayout')
+    //compile project(':musicwave')
+
+    //custom videoview with fullscreen
+    compile 'com.github.rtoshiro.fullscreenvideoview:fullscreenvideoview:1.1.2'
+    compile 'org.apache.commons:commons-lang3:3.4'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'com.github.chrisbanes:PhotoView:2.0.0'
+    compile 'com.linsea:universalvideoview:1.1.0@aar'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.github.hani-momanii:SuperNova-Emoji:1.1'
+    compile 'com.google.android:flexbox:0.2.7'
+    compile 'com.afollestad.material-dialogs:core:0.8.6.0'
+
+    compile 'com.google.firebase:firebase-messaging:11.6.0'
+    compile 'com.google.firebase:firebase-core:11.6.0'
+    compile('com.crashlytics.sdk.android:crashlytics:2.7.1@aar') {
+        transitive = true
+    }
+
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
+    compile 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+
+    compile 'com.fxn769:musicwave:1.0'
+
+    compile 'com.squareup.okhttp3:okhttp:3.9.1'
+
+    //compile 'com.bilibili:boxing-impl:1.0.0'
+
+}
+
+//This line is added
+apply plugin: 'com.google.gms.google-services'
+

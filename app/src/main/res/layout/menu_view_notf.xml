@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="48dp"
+    android:layout_height="fill_parent"
+    android:layout_gravity="left" >
+
+    <!-- Menu Item Image -->
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:src="@drawable/ic_action_message"
+        android:layout_margin="7dp"
+        android:id="@+id/img_menuicon"/>
+
+    <!-- Badge Count -->
+    <!--<TextView-->
+        <!--android:id="@+id/actionbar_notifcation_textview"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:padding="3dp"-->
+        <!--android:text="99"-->
+        <!--android:textColor="@color/color_white"-->
+        <!--android:background="#FD481F"/>-->
+    <com.flyco.tablayout.widget.MsgView
+        android:id="@+id/actionbar_notifcation_textview"
+        xmlns:mv="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textColor="#ffffff"
+        android:textSize="11.5sp"
+        android:visibility="visible"
+        android:gravity="center"
+        mv:mv_backgroundColor="#FD481F"
+        mv:mv_isRadiusHalfHeight="true"
+        mv:mv_strokeColor="#ffffff"
+        mv:mv_strokeWidth="1dp"
+        android:text="99+"
+        android:layout_marginTop="1dp"/>
+
+</RelativeLayout>
