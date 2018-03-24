@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/flycotabLayout/flycotabLayout.iml" filepath="$PROJECT_DIR$/flycotabLayout/flycotabLayout.iml" />
+      <module fileurl="file://F:\Work_2018\20180212_aqeel\sadeemlight-android\flycotabLayout\flycotabLayout.iml" filepath="F:\Work_2018\20180212_aqeel\sadeemlight-android\flycotabLayout\flycotabLayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/musicwave/musicwave.iml" filepath="$PROJECT_DIR$/musicwave/musicwave.iml" />
+      <module fileurl="file://F:\Work_2018\20180212_aqeel\sadeemlight-android\musicwave\musicwave.iml" filepath="F:\Work_2018\20180212_aqeel\sadeemlight-android\musicwave\musicwave.iml" />
       <module fileurl="file://$PROJECT_DIR$/sadeemlight-android.iml" filepath="$PROJECT_DIR$/sadeemlight-android.iml" />
     </modules>
   </component>

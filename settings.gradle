@@ -1,1 +1,1 @@
-include ':app', ':flycotabLayout', ':musicwave'
+include ':app'

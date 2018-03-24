@@ -15,10 +15,9 @@ public class MainTabItem extends View
 {
     String m_tabName;
     int    m_notifiCount;
+
     Context m_parent;
-
     View m_rootView;
-
     View     notfRootView;
     TextView txtNotification;
     TextView txtTabname;
